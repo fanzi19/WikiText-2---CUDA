@@ -662,12 +662,6 @@ int main(int argc, char* argv[]) {
         
         std::cout << "Epoch " << (epoch + 1) << " completed. "
                   << "Loss: " << epochLoss << ", Perplexity: " << perplexity << std::endl;
-        
-        // Optionally, you can add validation here
-        // float validationLoss = model.validate(validationData, batchSize);
-        // float validationPerplexity = std::exp(validationLoss);
-        // std::cout << "Validation Loss: " << validationLoss 
-        //           << ", Validation Perplexity: " << validationPerplexity << std::endl;
     }
 
     return 0;
